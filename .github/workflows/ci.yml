@@ -1,4 +1,4 @@
-name: CI Pipeline 
+name: GitHub Actions Demo 
  
 on: 
   push: 
@@ -13,5 +13,5 @@ jobs:
     steps: 
     - uses: actions/checkout@v3 
  
-    - name: Run a simple command 
-      run: echo "Hello, GitHub Actions! CI pipeline is working." 
+    - name: Run GitHub Actions Demo 
+      run: echo "GitHub Actions Demo - Build successful!" 
